@@ -1,0 +1,158 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+body {
+  margin: 0 auto;
+  /*color:#f0f0f0;
+  background:#12B83C;*/
+  background-image: url("./estacionamiento-ok.jpg");
+  background-size: cover;
+
+  font-family:'Open Sans',sans-serif;
+}
+
+caption {
+  font-size: 1.6em;
+  font-weight: 400;
+  padding: 10px 0;
+}
+
+.CajaInicio { 
+  width:200px;
+  margin:0 auto;
+  margin-top:8px;
+  margin-bottom:2%;
+  transition:opacity 1s;
+  -webkit-transition:opacity 1s;
+}
+
+.CajaInicio h1,h4{
+  /*background:rgb(14, 26, 112);*/
+  background-color: #1BA045;
+  border:2px;
+  border-color: #CBDE1F;
+  border-style: solid;  
+  padding:40px 0;
+  font-size:250%;
+  font-weight:500;
+  text-align:center;
+  color:#fff;
+}
+
+.CajaInicio span{
+  font-size:110%;
+  background:rgb(14, 26, 112);
+  color:#fff;
+  -moz-border-radius:7px;
+  -webkit-border-radius:7px;
+  border-radius:7px;
+  transition:background .3s;
+  -webkit-transition:background .3s;
+
+  
+}
+form { 
+  /*background:#f0f0f0;*/ 
+  background: #EAF2A2;
+  border-style: solid;
+  border-color: #CBDE1F;
+
+
+  padding:6% 4%;
+}
+
+input[type="text"], input[type="file"]{
+  width:80%;
+  background:#fff;
+  margin-bottom:4%;
+  margin-left:5%;
+  margin-right:5%;
+  border:2px solid #ccc;
+  padding-right:4%;
+  font-family:'Open Sans',sans-serif;
+  font-size:150%;
+  color:#555;
+}
+
+.MiBotonUTN {
+  display:block;
+  text-transform: capitalize;
+  border:hidden;
+  width:90%;
+  background:#1BA045;
+  margin:0 auto;
+  margin-top:1%;
+  padding:10px;
+  text-align:center;
+  text-decoration:none;
+  color:#fff;
+  cursor:pointer;
+  -moz-border-radius:7px;
+  -webkit-border-radius:7px;
+  border-radius:7px;
+  transition:background .3s;
+  -webkit-transition:background .3s;
+}
+
+.MiBotonUTN:hover{
+  background:#729CD4;
+}
+
+.CajaInicio table{
+  /*width:45%;
+  background:#f5a0bb;*/
+  margin:0 auto;
+  margin-top:0px;
+  margin-bottom:2%;
+  /*background:#41CCF2;*/
+  color: rgb(14, 26, 112);
+
+}
+.CajaInicio td{
+	margin:auto;
+	margin-left:0%;
+	text-align: right;
+}
+
+caption {
+  font-size: 1.6em;
+  font-weight: 400;
+  padding: 10px 0;
+}
+
+.CajaUno {
+  max-width: 30%;
+  width:200px;
+  margin:0 auto;
+  margin-top:8px;
+  margin-bottom:2%;
+  transition:opacity 1s;
+  -webkit-transition:opacity 1s;
+}
+
+.CajaUno a:hover {
+  color:#f50056;
+
+}
+
+.CajaUno a {
+  color:#DDDDDD;
+}
+
+.CajaUno h1{
+  background:#f50056; 
+  padding:20px 0;
+  font-size:110%;
+  font-weight:300;
+  text-align:center;
+  color:#fff;
+}
+.CajaInicio table{
+	width:100%;	
+}
+.CajaInicio table tr td{
+text-align:center;
+vertical-align:middle;
+}
